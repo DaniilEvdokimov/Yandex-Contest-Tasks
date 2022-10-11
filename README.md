@@ -70,7 +70,7 @@ for i in range(N):
 
 for i in csv:
     full_name_date = i.split(',')
-    full_name = full_name_date[0]+full_name_date[1]+full_name_date[2]
+    full_name = full_name_date[0] + full_name_date[1] + full_name_date[2]
     len_full_name = len(set([char for char in full_name]))
     
     d_m = full_name_date[3] + full_name_date[4]
